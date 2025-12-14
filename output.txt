@@ -1,0 +1,81 @@
+PS C:\Users\vasun\Desktop\New folder> python -u "c:\Users\vasun\Desktop\New folder\atm-simulator.py"
+===== Welcome to ATM =====
+Enter your PIN: 1703
+Welcome thrupthi
+
+------ MENU ------
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Print Receipt
+5. Exit
+Enter choice: 1
+Checking balance...
+Balance: ₹ 12000
+
+------ MENU ------
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Print Receipt
+5. Exit
+Enter choice: 2
+Enter deposit amount: ₹50
+Depositing...
+₹50 deposited successfully
+Date & Time: 14-12-2025  19:07:16
+
+------ MENU ------
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Print Receipt
+5. Exit
+Enter choice: 3
+Enter withdrawal amount: ₹20
+Processing withdrawal...
+₹20 withdrawn successfully
+Date & Time: 14-12-2025  19:07:25
+
+------ MENU ------
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Print Receipt
+5. Exit
+Enter choice: 4
+
+----- ATM RECEIPT -----
+Name: thrupthi
+Transaction: Withdraw
+Amount: ₹ 20
+Date & Time: 14-12-2025  19:07:25
+Available Balance: ₹ 12030
+----------------------
+
+------ MENU ------
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Print Receipt
+5. Exit
+Enter choice: 5
+Thank you for using ATM
+PS C:\Users\vasun\Desktop\New folder>
+
+
+PS C:\Users\vasun\Desktop\New folder> python -u "c:\Users\vasun\Desktop\New folder\atm-simulator.py"
+===== Welcome to ATM =====
+Enter your PIN: 23
+Invalid PIN
+Attempts left: 2
+Enter your PIN: 33
+Invalid PIN
+Attempts left: 1
+Enter your PIN: 4
+Invalid PIN
+Attempts left: 0
+
+❌ Card Blocked due to 3 wrong attempts
+Please contact your bank
+PS C:\Users\vasun\Desktop\New folder> 
